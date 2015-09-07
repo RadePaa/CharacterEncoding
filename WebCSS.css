@@ -1,0 +1,184 @@
+/* Dateiname: WebCSS.css */
+
+
+<!DOCTYPE html>
+
+/* Allgemeine Formatiereung */
+
+
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+  font: 100.01% Verdana;
+    
+background-color: #E3E3E3;
+/* background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2012/10/13/19178/big_thumb_8bcddb025c198469b967c7451ba80e1d.jpg"); */
+}
+
+section {
+   margin: 0px;
+    padding: 0px;
+}
+
+/* Layout */
+#wrapper {
+width: 1000px;
+    height: 875px;
+margin: 0px auto;
+    /* durch auto mittig zentriert*/
+      
+    border: 2px double black;
+    
+}
+
+header {
+background-color: white;
+    height: 200px;
+    width: 1000px;
+    overflow:hidden;
+
+}
+
+#inhalt {
+    width: 998px;
+     height: 610px;
+    float:left;
+    
+    border: 1px solid black;
+    background-color: white;
+    
+    
+    /* 
+      width: 798px;
+     height: 650px;
+    float:left;
+    
+    border: 1px solid black;
+    background-color: white;
+    */
+}
+
+#bg{
+       background-color: white;
+    
+}
+
+
+#fra{
+margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+
+.HeaderBild {
+     width:1000px;
+   height:330px;
+   overflow:hidden;
+    
+    /* Bild darf nur so und so groß sein, rest wird versteckt! */
+  
+}
+#HeaderText {
+   font-family:'Rock+Salt', Verdana;
+}
+#navi {
+    background-color: red;
+width: 998px;
+    height: 40px;
+    float: top;
+    border: 1px solid black;
+    overflow:hidden;
+     text-align: center;
+     list-style-type: none;
+    
+    font-size: 12pt;
+    font-family: "verdana";
+   
+    
+
+/*
+    
+  #navi {
+  background-color: #96C176;
+width: 998px;
+    height: 50px;
+    float: top;
+    border: 1px solid black;
+    overflow:hidden;
+     text-align: center;
+     list-style-type: none;
+    
+    font-size: 12pt;
+    font-family: "verdana";
+    */
+    
+}
+ul {
+    text-align: center;
+
+    list-style-type: none;
+   
+    margin:0px;
+    padding: 0px;
+    
+}
+
+#navkopf{  text-shadow: 1px 1px 10px black;
+    background-color: beige;
+    font-style:oblique;
+    border: 1px solid white;
+}
+
+li {  
+    display: inline; /* li nebeneinander anzeigen */
+    list-style-type: none; /* ohne Aufzählungspunkte */
+    
+    text-shadow: 1px 1px 10px black;
+width: 194px;
+    height: 40px  ;  
+    
+ 
+     border-right: 1px solid black;
+
+    
+   background-color: red;
+  
+    
+padding: 49px;
+    
+    
+    font-size: 16pt;
+ 
+}
+li a{
+   color: white;
+}
+
+li a:hover{
+     text-shadow: 2px 2px 20px white;
+
+ 
+    color: black;
+
+/*    display: block;*/
+    
+
+    
+  
+}
+
+#foot{
+height: 20px;
+    top: 850px;
+    width: 998px;
+    border: 1px solid black;
+        float:left;
+    color: white;
+    background-color: grey;
+
+}
+
+

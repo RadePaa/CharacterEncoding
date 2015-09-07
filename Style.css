@@ -1,0 +1,18 @@
+body  {
+    font-size: 28pt; 
+}
+
+li {
+    line-height: 1.5;
+    font-size: 28pt;
+}
+
+h1{
+font-size: 30pt;
+}
+
+#codetext{
+background-color: gainsboro;
+    font-weight: bold;
+    border: 1px solid black;
+}
